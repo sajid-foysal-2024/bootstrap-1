@@ -1,0 +1,33 @@
+#delta{
+    width: 350px;
+    height: auto;
+    border: 3px solid forestgreen;
+}
+#container {
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-flow: wrap;     /* Optional: Adds space between divs */
+}
+#box {
+      /* Adjust the width as needed */
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+#feedback{
+    background-color: rgb(35, 148, 148);
+    padding: 7% 10%;
+}
+.hr{
+    border: 5px dotted rgb(83, 89, 177);
+    border-bottom: none ;
+
+}
+#i{
+    padding: 5% 15%;
+    display: block;  
+    text-align: center;
+    justify-content: center;
+}
